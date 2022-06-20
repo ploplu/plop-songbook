@@ -180,6 +180,10 @@ function songs_filter_content($content)
 
     $songpart = preg_replace("/%refrain%/","</div><div class='songs_refrain'>".str_replace("\n","</div><div class='songs_refrain'>",$refrain)."</div><div class='songs_line'>",$songpart);
 
+    $songpart = preg_replace_callback("/\/\/(.*)$/m",function ($found) {
+        return "<div class='songs_refrain'>".substr(rtrim($found[0]),2,strlen($found[0])-2)."</div>";
+    },$songpart);
+
     $song_meta = "<div class='songs_meta_envelope'>";
     if ( trim($artist) != "" )
         $song_meta .= "    <div class='songs_meta_line'><span class='songs_meta_line_label'>Artist: </span>$artist</div>";

@@ -4,7 +4,7 @@ Plugin Name: Plop Songbook
 Plugin URI: https://diekirch.lgs.lu
 Description: None
 Author: Pol Wagner
-Version: 2022.06.20.03
+Version: 2022.06.20.04
 Author URI: https://diekirch.lgs.lu
 */
 $dir = plugin_dir_url(__FILE__);
@@ -25,3 +25,4 @@ function custom_songs_css() {
 
 include("{$dir2}post.php");
 include("{$dir2}shortcode.php");
+include("{$dir2}view.php");
