@@ -4,7 +4,7 @@ Plugin Name: Plop Songbook
 Plugin URI: https://diekirch.lgs.lu
 Description: None
 Author: Pol Wagner
-Version: 1
+Version: 2022.06.20.03
 Author URI: https://diekirch.lgs.lu
 */
 $dir = plugin_dir_url(__FILE__);
