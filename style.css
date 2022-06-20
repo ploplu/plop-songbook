@@ -1,0 +1,47 @@
+/*.column-thumb { width:80px; }
+.cw_row { padding-top: 20px; font-size:14pt; }
+.cw_label { padding-top:6px; width:130px; display:block; float:left; }
+.cw_value { width: 300px; }
+.cw_row, .cw_value { font-size:12pt; }
+.cw_display { float:left; width:315px; margin-right:8px; }
+.cw_display img { height:209px; }
+.cw_display_envelope { width: 100%; }
+span.clear {  clear: left; display: block; }*/
+
+.songs_list_language_title {
+    font-weight: bold;
+    font-size: 16pt;
+    margin: 20px 0 5px 0 ;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding: 3px 3px 3px 6px;
+}
+.songs_list_title {
+    list-style-type: circle;
+    display: list-item;
+    list-style-position: inside;
+}
+.songs_list_title a {
+    color: black !important;
+}
+.songs_list_title_envelope {
+    padding: 2px;
+}
+.songs_refrain {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.songs_content {
+    width:100%;
+    font-family:'Courier New'
+}
+.songs_meta_envelope {
+    color: #444444;
+    margin-bottom: 6px;
+}
+.songs_meta_line {
+
+}
+.songs_meta_line_label {
+    font-weight: bold;
+}
