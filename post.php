@@ -65,6 +65,11 @@ function songs_create_post_type()
             'taxonomies' => array( 'song-language' ),
             'hierarchical' => false,
             'public' => true,
+            //'rewrite' => false,
+            'rewrite' => [
+                'slug' => '/songbook',
+                'with_front' => false
+            ],
             'show_ui' => true,
             'show_in_menu' => true,
             'menu_position' => 5,
